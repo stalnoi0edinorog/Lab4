@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="author">author</string>
+    <string name="title">title</string>
+    <string name="journal">journal</string>
+    <string name="pages">pages</string>
+</resources>
