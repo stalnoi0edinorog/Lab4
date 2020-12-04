@@ -46,8 +46,7 @@
           try (InputStreamReader reader = new InputStreamReader(getClass().getResourceAsStream("/mixed.bib"))) {
             notMixed = new BibDatabase(reader, cfg);
             mixed = openDatabase("/mixed.bib");
-            //System.out.println(notMixed.getEntry(0).getField(Keys.AUTHOR));
-            //System.out.println(mixed.getEntry(0).getField(Keys.AUTHOR));
+
             if (!mixed.getEntry(0).getField(Keys.AUTHOR)
                     .equals(notMixed.getEntry(0).getField(Keys.AUTHOR))) {
               check = true;
